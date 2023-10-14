@@ -1,35 +1,82 @@
 body {
     background-color: rgb(230, 230, 230);
 }
-#head {
-    height: 60px;
+#black {
+    height: 50px;
     width: 100%;
-    background-color: #1f1d1d;
+    background-color: #101010cf;
 }
-#main {
-    height: 80px;
+.Tree_Website{
+    color: #efefef;
+    margin-left: 10px;
+}
+#blue {
+    height: 120px;
     width: 100%;
-    background-color: rgba(0, 255, 255, 0.484);
+    background-color: rgba(0, 149, 255, 0.621);
 }
-.AnhDo {
-    height: 70px;
-    background-color: aquamarine;
+.Discover {
+    padding-top: 35px;
+    color: #efefef;
+    text-align: center;
+}
+#Grey {
+    height: 120px;
+    background-color: rgba(176, 184, 181, 0.682);
+}
+.Explore {
+    height: 25px;
+    width: 100px;
+    color: #efefef;
+    background-color: rgba(255, 0, 0, 0.679);
+    border: 0px;
+    margin-left:47%;
+    margin-top: 25px;
 }
 li {
     display: inline;
     margin: 10px;
-    color: #dcd4d4;
 }
-nav {
+ul {
     margin-left: -40px;
+    margin-top: 0px;
 }
 a {
     font-size:small;
     color: #efefef;
     text-decoration: none;
 }
+a:hover,
+a.on{
+    color: black;
+}
 h3 {
-    margin-left: 10px;
+    margin-left: 1px;
     color: #dcd4d4;
-    margin: 1;
+    margin: 0;
+}
+.About_Trees {
+    text-align:center;
+    margin-top: 0px;
+    padding-top: 45px;
+}
+.text {
+    text-align: center;
+}
+.Tree_Gallery {
+    text-align: center;
+}
+#White1 {
+    text-align: center;
+}
+#White2 {
+    text-align: center;
+}
+#Black {
+    margin-top: 20px;
+}
+.text1 {
+    color: #efefefa0;
+    text-align: center;
+    padding-top: 10;
 }
